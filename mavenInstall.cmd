@@ -6,10 +6,10 @@ echo #--------------------------------#
 echo ^| Starting maven automated setup ^|
 echo #--------------------------------#
 
-if exist javasgate.jar ( del javasgate.jar )
-copy "%workingDir%\target\javasgate-1-jar-with-dependencies.jar" "%workingDir%" >NUL
-ren javasgate-1-jar-with-dependencies.jar javasgate.jar
+if exist pokemon.jar ( del pokemon.jar )
+copy "%workingDir%\target\pokemon-1-jar-with-dependencies.jar" "%workingDir%" >NUL
+ren pokemon-1-jar-with-dependencies.jar pokemon.jar
 
-java -jar javasgate.jar
+java -jar pokemon.jar
 
 PAUSE

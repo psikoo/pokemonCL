@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.javasgate</groupId>
-  <artifactId>javasgate</artifactId>
+  <groupId>com.pokemon</groupId>
+  <artifactId>pokemon</artifactId>
   <version> 1</version>
 
-  <name>javasgate</name>
+  <name>pokemon</name>
   <description>A comand line adventure rpg</description>
   <url>https://github.com/psikoo</url>
 
@@ -75,7 +75,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>com.javasgate.Main</mainClass>
+                <mainClass>com.pokemon.Main</mainClass>
               </manifest>
             </archive>
           </configuration>
