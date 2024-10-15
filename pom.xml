@@ -6,7 +6,7 @@
 
   <groupId>com.pokemon</groupId>
   <artifactId>pokemon</artifactId>
-  <version> 1</version>
+  <version>1</version>
 
   <name>pokemon</name>
   <description>A comand line adventure rpg</description>
@@ -18,12 +18,6 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 
   <build>
@@ -72,6 +66,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-assembly-plugin</artifactId>
+          <version>2.2</version>
           <configuration>
             <archive>
               <manifest>
