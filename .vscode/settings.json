@@ -5,5 +5,8 @@
             "command": "clean validate compile site assembly:assembly -DdescriptorId=jar-with-dependencies exec:exec",
             "debug": false
         }
+    ],
+    "cSpell.words": [
+        "Pikachu"
     ]
 }
