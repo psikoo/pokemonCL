@@ -1,0 +1,9 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "maven.terminal.favorites": [
+        {
+            "command": "clean validate compile site assembly:assembly -DdescriptorId=jar-with-dependencies exec:exec",
+            "debug": false
+        }
+    ]
+}
