@@ -18,6 +18,11 @@ public class App {
     private static boolean actionBool = false;
     private static boolean battleBool = false;
 
+
+    // TODO add splash screen
+    // TODO make preatty
+    // TODO split up
+
     // Main function
     public App() {
         startMenu();
