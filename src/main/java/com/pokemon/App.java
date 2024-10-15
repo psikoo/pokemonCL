@@ -22,6 +22,8 @@ public class App {
     // TODO add splash screen
     // TODO make preatty
     // TODO split up
+    // TODO readme
+    // TODO inmplement build sys to a file with a bat
 
     // Main function
     public App() {
