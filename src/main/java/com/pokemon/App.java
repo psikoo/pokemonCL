@@ -25,7 +25,8 @@ public class App {
     // TODO readme
     // TODO remove test and depedency
     // TODO inmplement build sys to a file with a bat
-    // TODO do getters and setters for plyer
+    // TODO do getters and setters for plyer    
+    // clean validate compile site assembly:assembly -DdescriptorId=jar-with-dependencies exec:exec
 
     // Main function
     public App() {
