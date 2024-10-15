@@ -32,6 +32,7 @@ public class App {
                 end = true;
             }
         }
+        System.out.print("\033[H\033[2J");
         System.out.println("> " + endString);
     }
 
