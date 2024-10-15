@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Util {
 
     public static void clearCL() {
-        System.out.print("\033c"); //\033[2J
+        System.out.print("\033c\033[2J");
         System.out.flush();
     }
 
@@ -26,6 +26,7 @@ public class Util {
         System.out.println("                                                                               v1.0");
         System.out.println("                                                                                   ");
         System.out.println(">----------------------[ Welcome to Pokemon Command & Line ]----------------------<");
+        System.out.println("ADD TEXT HERE");
         Util.waitForEnter();
     }
 }
