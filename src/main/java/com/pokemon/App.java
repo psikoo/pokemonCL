@@ -23,6 +23,7 @@ public class App {
     // TODO make preatty
     // TODO split up
     // TODO readme
+    // TODO remove test and depedency
     // TODO inmplement build sys to a file with a bat
 
     // Main function
