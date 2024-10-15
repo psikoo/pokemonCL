@@ -25,6 +25,7 @@ public class App {
     // TODO readme
     // TODO remove test and depedency
     // TODO inmplement build sys to a file with a bat
+    // TODO do getters and setters for plyer
 
     // Main function
     public App() {
