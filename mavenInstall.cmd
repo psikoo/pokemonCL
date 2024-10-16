@@ -14,5 +14,3 @@ ren pokemon-1-jar-with-dependencies.jar pokemonCL.jar
 
 echo ^| Copying and renaming files     ^|
 echo #--------------------------------#
-
-PAUSE
