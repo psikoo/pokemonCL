@@ -188,7 +188,7 @@ public class Util {
         System.out.println("║           > 0 - Attack                                                                  ║");
         System.out.println("║           > 1 - Heal -"+potions+"                                                                 ║");
         System.out.println("║           > 2 - Capture -"+pokeballs+"                                                             ║");
-        System.out.println("║           > 3 - Scape                                                                   ║");
+        System.out.println("║           > 3 - Escape                                                                  ║");
         System.out.println("║                                                                                         ║");
         Util.input();
     }
@@ -277,7 +277,7 @@ public class Util {
         Util.banner();
         System.out.println("║   >─────────────────────────────────[ 2 - Capture ]─────────────────────────────────<   ║");
         System.out.println("║                                                                                         ║");
-        System.out.println("║         You throw a pokeball but the Pokemon scapes (it has too much HP)                ║");
+        System.out.println("║         You throw a pokeball but the Pokemon escapes (it has too much HP)               ║");
         System.out.println("║                                                                                         ║");
         System.out.println("║                                                                                         ║");
         System.out.println("║                                                                                         ║");
@@ -286,11 +286,11 @@ public class Util {
         Util.waitForEnter();
     }
 
-    public static void scapeMenu() {
+    public static void escapeMenu() {
         Util.banner();
-        System.out.println("║   >──────────────────────────────────[ 3 - Scape ]──────────────────────────────────<   ║");
+        System.out.println("║   >─────────────────────────────────[ 3 -  Escape ]─────────────────────────────────<   ║");
         System.out.println("║                                                                                         ║");
-        System.out.println("║         You manage to scape                                                             ║");
+        System.out.println("║         You manage to Escape                                                            ║");
         System.out.println("║                                                                                         ║");
         System.out.println("║                                                                                         ║");
         System.out.println("║                                                                                         ║");

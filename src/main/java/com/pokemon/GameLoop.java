@@ -79,7 +79,7 @@ public class GameLoop {
                 else if(action == 0) { enemyHP = attack(enemyHP, battleID); }   // Attack
                 else if(action == 1) { heal(); }                                // Heal
                 else if(action == 2) { capture(enemyHP, battleID); }            // Capture
-                else if(action == 3) { Util.scapeMenu(); battleBool = true; }   // End battle
+                else if(action == 3) { Util.escapeMenu(); battleBool = true; }   // End battle
             } catch(Exception e) { battle(battleID); }
         }
         battleBool = false;
