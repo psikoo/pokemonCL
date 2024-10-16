@@ -43,5 +43,7 @@ mavenInstall.cmd only a utility script and its not needed for the building proce
 Once you have built the PokemonCL or downloaded it from the [releases](https://github.com/psikoo/PokemonCL/releases/), you can simply run the app by running start.cmd. This script runs the following command: 
 
 ```bash
+reg add HKEY_CURRENT_USER\Console /v VirtualTerminalLevel /t REG_DWORD /d 0x00000001 /f >NUL
 java -jar pokeCL.jar
 ```
+The registery key enables ansi codes in the windows terminal
