@@ -1,3 +1,4 @@
+⚠ If you are running the program in windows run start.cmd once, close and run it again for the ansi codes to work
 
 # Pokemon CL (Command & Line)
 
