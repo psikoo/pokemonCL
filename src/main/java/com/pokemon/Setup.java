@@ -10,13 +10,14 @@ public class Setup {
     private boolean pokemonBool = false;
 
     public Setup(App app) {
-        Util.splashScreen();
+        Util.splashScreen();                            // Intro scene
 
-        chooseGender();
-        choosePokemon(cGender);
-        app.setPlayer(new Player(cGender, cPokemon));
+        chooseGender();                                 // Prompt for gender
+        choosePokemon(cGender);                         // Prompt for pokemon
+        app.setPlayer(new Player(cGender, cPokemon));   // Create a player object based on the given input
 
-        Util.characterFinish("You choose " + app.getPlayer().getPokemonName() + ", it has " + app.getPlayer().getPokemonMaxHP() + " HP");
+        String pokemonInfo = "You choose " + app.getPlayer().getPokemonName() + ", it has " + app.getPlayer().getPokemonMaxHP() + " HP";
+        Util.characterFinish(pokemonInfo);              // Show the chosen pokemon and ots info
     }
 
     // Select gender
@@ -27,10 +28,10 @@ public class Setup {
             try {
                 int gender = scanner.nextInt();
                 if(gender != 0 && gender != 1) { chooseGender(); } 
-                else if(gender == 0) {
+                else if(gender == 0) { // Male
                     genderBool = true;
                     cGender = 0;
-                } else if(gender == 1) {
+                } else if(gender == 1) { // Female
                     genderBool = true;
                     cGender = 1;
                 }        

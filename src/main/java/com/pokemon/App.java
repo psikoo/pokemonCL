@@ -21,6 +21,6 @@ public class App {
         gameLoop = new GameLoop(this, player);              // Initialize gameLoop
         while (endString == "") { gameLoop.gameTick(); }    // Step game 1 tick
 
-        Util.endScreen(endString);
+        Util.endScreen(endString);                          // Show end screen
     }
 }

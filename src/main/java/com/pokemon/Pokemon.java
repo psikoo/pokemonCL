@@ -1,10 +1,10 @@
 package com.pokemon;
 
-public class Pokemon {
+public class Pokemon { // Utility class to retrieve pokemon information
 
     public static String pokemonNameTable(int gender, int pokemon) {
         String name = "";
-        if(gender == 0) {
+        if(gender == 0) { // Male
             switch(pokemon) {
                 case 0:
                     name = "Bulbasaur";
@@ -18,7 +18,7 @@ public class Pokemon {
                 default:
                     name = "ERROR";
             }     
-        } else if(gender == 1) {
+        } else if(gender == 1) { // Female
             switch(pokemon) {
                 case 0:
                     name = "Chikorita";
@@ -32,7 +32,7 @@ public class Pokemon {
                 default:
                     name = "ERROR";
             } 
-        } else if(gender == 2) {
+        } else if(gender == 2) { // Enemy
             switch(pokemon) {
                 case 0:
                     name = "Pikachu";
@@ -52,7 +52,7 @@ public class Pokemon {
 
     public static int pokemonHPTable(int gender, int pokemon) {
         int hp = 0;
-        if(gender == 0) {
+        if(gender == 0) { // Male
             switch(pokemon) {
                 case 0:
                     hp = 100;
@@ -66,7 +66,7 @@ public class Pokemon {
                 default:
                     hp = 0;
             }     
-        } else if(gender == 1) {
+        } else if(gender == 1) { // Female
             switch(pokemon) {
                 case 0:
                     hp = 90;
@@ -80,7 +80,7 @@ public class Pokemon {
                 default:
                     hp = 0;
             } 
-        } else if(gender == 2) {
+        } else if(gender == 2) { // Enemy
             switch(pokemon) {
                 case 0:
                     hp = 60;

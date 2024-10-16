@@ -57,11 +57,11 @@ public class Util {
         Util.banner();
         System.out.println("║   >──────────────────────[ Welcome to Pokemon Command & Line ]──────────────────────<   ║");
         System.out.println("║                                                                                         ║");
-        System.out.println("║         This project is a small command line recreation of pokemon game formula         ║");
+        System.out.println("║         This project is a small command line recreation of the pokemon game formula     ║");
         System.out.println("║                                                                                         ║");
         System.out.println("║         What can you do in this game?                                                   ║");
         System.out.println("║          1. Choose your gender and starter pokemon                                      ║");
-        System.out.println("║          2. Battle 3 different pokemons and have the chance to capture them             ║");
+        System.out.println("║          2. Battle 3 different Pokemons and have the chance to capture them             ║");
         System.out.println("║          3. Check your pokedex                                                          ║");
         Util.waitForEnter();
     }
