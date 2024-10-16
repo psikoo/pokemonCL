@@ -33,8 +33,8 @@ public class Player {
         String newLine = "";
         for(int i = 0; i < pokedexLength; i++) {
             if(i == 1) { newLine = "\n"; }
-            if(pokedex[i] == null) { pokedexString += newLine + "  > ? - ????"; } 
-            else { pokedexString += newLine + "  > " + pokedex[i]; }
+            if(pokedex[i] == null) { pokedexString += newLine + "          > ? - ????"; } 
+            else { pokedexString += newLine + "          > " + pokedex[i]; }
         }
         return pokedexString;
     }

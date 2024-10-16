@@ -3,7 +3,6 @@ package com.pokemon;
 public class App {
     private Player player;
     private GameLoop gameLoop;
-    private boolean end = false;
     private String endString = "";
     private int captureCount = 0;
     private int killCount = 0;
@@ -12,18 +11,16 @@ public class App {
     public int getCaptureCount() { return captureCount; }
     public int getKillCount() { return killCount; }
     public void setPlayer(Player player) { this.player = player; }
-    public void setEnd(boolean end) { this.end = end; }
     public void setEndString(String endString) { this.endString = endString; }
     public void setCaptureCount(int captureCount) { this.captureCount = captureCount; }
     public void setKillCount(int killCount) { this.killCount = killCount; }
     
     public App() {
-        new Setup(this);                        // Get player gender and pokemon
+        new Setup(this);                                    // Get player gender and pokemon
         
-        gameLoop = new GameLoop(this, player);  // Initialize gameLoop
-        while (!end) { gameLoop.gameTick(); }   // Step game 1 tick
+        gameLoop = new GameLoop(this, player);              // Initialize gameLoop
+        while (endString == "") { gameLoop.gameTick(); }    // Step game 1 tick
 
-        Util.clearCL();
-        System.out.println("> " + endString);
+        Util.endScreen(endString);
     }
 }
