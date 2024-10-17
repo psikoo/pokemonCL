@@ -19,7 +19,7 @@ public class App {
         new Setup(this);                                    // Get player gender and pokemon
         
         gameLoop = new GameLoop(this, player);              // Initialize gameLoop
-        while (endString == "") { gameLoop.gameTick(); }    // Step game 1 tick
+        while (endString.equals("")) { gameLoop.gameTick(); }    // Step game 1 tick
 
         Util.endScreen(endString);                          // Show end screen
     }
