@@ -10,6 +10,7 @@ public class Util {
     }
 
     public static void waitForEnter() {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         System.out.println("║                                                                                         ║");
         System.out.println("║   > Press enter to continue ...                                                         ║");
@@ -300,6 +301,7 @@ public class Util {
     }
 
     public static void endScreen(String reason) {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         Util.banner();
         System.out.println("║   >─────────────────────────────────────[ End ]─────────────────────────────────────<   ║");

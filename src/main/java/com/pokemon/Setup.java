@@ -22,6 +22,7 @@ public class Setup {
 
     // Select gender
     private void chooseGender() {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         while (!genderBool) {
             Util.chooseGender();
@@ -41,6 +42,7 @@ public class Setup {
 
     // Select pokemon
     private void choosePokemon(int gender) {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         while (!pokemonBool) {
             if(gender == 0) { Util.choosePokemonMale(); } 

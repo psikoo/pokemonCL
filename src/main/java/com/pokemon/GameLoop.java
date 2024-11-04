@@ -24,6 +24,7 @@ public class GameLoop {
 
     // Option menu, returns an int (0-3) depending on the user's input
     private int action() {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         int actionID = 0;
         while (!actionBool) {
@@ -68,6 +69,7 @@ public class GameLoop {
 
     // Battle menu
     private void battle(int battleID) {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         int enemyHP = Pokemon.pokemonHPTable(2, battleID);
         while (!battleBool) {
